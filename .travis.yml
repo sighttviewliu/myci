@@ -12,8 +12,13 @@ compiler:
   - g++
 
 install:
-  - git clone --recursive https://github.com/sighttviewliu/myci.git
+  - git clone --recursive https://github.com/sighttviewliu/myci.git myci
   - cd myci
+  - git checkout master
+
+branches:
+  only:
+  - master
 
 script:
   - make distclean

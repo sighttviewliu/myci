@@ -1,0 +1,28 @@
+sudo: required
+before_install:
+  - sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+  - sudo apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+  - sudo apt-get install -y libboost-all-dev
+  - sudo apt-get install -y software-properties-common
+  - sudo apt-get install -y git
+
+language: cpp
+
+compiler:
+  - g++
+
+install:
+  - git clone --recursive https://github.com/sighttviewliu/myci.git
+  - cd myci
+
+script:
+  - make distclean
+  - make
+
+notifications:
+  email:
+    recipients:
+      - liulijin@earthledger.com
+      - sighttview@foxmail.com
+    on_success: always
+    on_failure: always

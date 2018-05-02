@@ -13,5 +13,7 @@
 [![codecov](https://codecov.io/gh/sighttviewliu/myci/branch/master/graph/badge.svg)](https://codecov.io/gh/sighttviewliu/myci)
 外挂issues统计
 [![GitHub Issues](https://img.shields.io/github/issues-raw/myci/myci.svg)](https://github.com/sighttviewliu/myci/issues)
+gitter聊天室
+[![Join the chat at https://gitter.im/michaelmyci/Lobby](https://badges.gitter.im/mychaelmyci/Lobby.svg)](https://gitter.im/michaelmyci/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 # myci
 #### 测试用

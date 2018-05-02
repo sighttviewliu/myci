@@ -1,4 +1,5 @@
 # 构建结果
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://travis-ci.org/sighttviewliu/myci.svg?branch=master)](https://travis-ci.org/sighttviewliu/myci)
 [![Documentation Status](https://readthedocs.org/projects/myci/badge/?version=latest)](http://myci.readthedocs.io/en/latest/?badge=latest)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/826d55ac1fde4479976754a3a5f9a547)](https://www.codacy.com/app/sighttviewliu/myci?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sighttviewliu/myci&amp;utm_campaign=Badge_Grade)

@@ -29,7 +29,9 @@ branches:
 script:
   - make distclean
   - make
+  - rm makefile
   - ./build.sh
+  - ./travis_qmake_gcc_cpp11_gcov
   - ./get_code_cov.sh
 
 after_success:

@@ -1,3 +1,7 @@
+env:
+  global:
+    - CODECOV_TOKEN = "a0eb1c5d-c253-407e-80a0-0630258f26b4"
+
 sudo: required
 before_install:
   - sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils

@@ -29,13 +29,14 @@ branches:
 script:
   - make distclean
   - make
+  - make distclean
   - rm makefile
   - ./build.sh
   - ./travis_qmake_gcc_cpp11_gcov
   - ./get_code_cov.sh
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t a0eb1c5d-c253-407e-80a0-0630258f26b4
 
 notifications:
   email:

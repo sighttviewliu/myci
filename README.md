@@ -8,3 +8,5 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/826d55ac1fde4479976754a3a5f9a547)](https://www.codacy.com/app/sighttviewliu/myci?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sighttviewliu/myci&amp;utm_campaign=Badge_Grade)
 # myrtd构建状态
 [![Documentation Status](https://readthedocs.org/projects/myrtd/badge/?version=latest)](http://myrtd.readthedocs.io/zh_CN/latest/?badge=latest)
+# 项目使用apache许可证
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

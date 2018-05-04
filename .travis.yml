@@ -1,7 +1,3 @@
-env:
-  global:
-    - CODECOV_TOKEN = "a0eb1c5d-c253-407e-80a0-0630258f26b4"
-
 sudo: required
 before_install:
   - sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
@@ -9,6 +5,8 @@ before_install:
   - sudo apt-get install -y libboost-all-dev
   - sudo apt-get install -y software-properties-common
   - sudo apt-get install -y git
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
 
 language: cpp
 
@@ -16,6 +14,8 @@ compiler:
   - g++
 
 install:
+  - sudo apt-get install -qq g++-5
+  - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-5 90
   - git clone --recursive https://github.com/sighttviewliu/myci.git myci
   - cd myci
   - git checkout master
@@ -29,10 +29,12 @@ branches:
 script:
   - make distclean
   - make
+  - ./build.sh
+  - ./travis_qmake_gcc_cpp11_gcov
+  - ./get_code_cov.sh
 
 after_success:
-  - codecov
-  - bash <(curl -s https://codecov.io/bash) -t a0eb1c5d-c253-407e-80a0-0630258f26b4
+  - bash <(curl -s https://codecov.io/bash)
 
 notifications:
   email:

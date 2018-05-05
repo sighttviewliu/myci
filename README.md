@@ -12,3 +12,5 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Codefactor代码检视
 [![CodeFactor](https://www.codefactor.io/repository/github/sighttviewliu/myci/badge)](https://www.codefactor.io/repository/github/sighttviewliu/myci)
+# waffle项目管理issue和PR
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/sighttviewliu/myci.svg?columns=all)](https://waffle.io/sighttviewliu/myci)

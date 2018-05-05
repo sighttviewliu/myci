@@ -7,6 +7,7 @@ before_install:
   - sudo apt-get install -y git
   - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   - sudo apt-get update -qq
+  - sudo pip install --user cpp-coveralls
 
 language: cpp
 
@@ -34,9 +35,11 @@ script:
   - ./build.sh
   - ./travis_qmake_gcc_cpp11_gcov
   - ./get_code_cov.sh
+  - ./configure --enable-gcov && make && make check
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t a0eb1c5d-c253-407e-80a0-0630258f26b4
+  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
 
 notifications:
   email:

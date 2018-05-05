@@ -14,3 +14,5 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/sighttviewliu/myci/badge)](https://www.codefactor.io/repository/github/sighttviewliu/myci)
 # waffle项目管理issue和PR
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/sighttviewliu/myci.svg?columns=all)](https://waffle.io/sighttviewliu/myci)
+# coveralls代码检视
+[![Coverage Status](https://coveralls.io/repos/github/sighttviewliu/myci/badge.svg?branch=master)](https://coveralls.io/github/sighttviewliu/myci?branch=master)

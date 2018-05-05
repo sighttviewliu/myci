@@ -38,7 +38,7 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t a0eb1c5d-c253-407e-80a0-0630258f26b4
-  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
+  - coveralls
 
 notifications:
   email:

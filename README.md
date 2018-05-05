@@ -10,3 +10,5 @@
 [![Documentation Status](https://readthedocs.org/projects/myrtd/badge/?version=latest)](http://myrtd.readthedocs.io/zh_CN/latest/?badge=latest)
 # 项目使用apache许可证
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Codefactor代码检视
+[![CodeFactor](https://www.codefactor.io/repository/github/sighttviewliu/myci/badge)](https://www.codefactor.io/repository/github/sighttviewliu/myci)

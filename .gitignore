@@ -1,5 +1,6 @@
 main
 main.cxx
+main.cc
 
 # Compiled Object files
 *.slo

@@ -12,9 +12,9 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Codefactor代码检视
 [![CodeFactor](https://www.codefactor.io/repository/github/sighttviewliu/myci/badge)](https://www.codefactor.io/repository/github/sighttviewliu/myci)
-# waffle项目管理issue和PR
+# waffle项目管理issue和PR/20190516 Closed
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/sighttviewliu/myci.svg?columns=all)](https://waffle.io/sighttviewliu/myci)
-# waffle的issues和PR统计
+# waffle的issues和PR统计/20190516 Closed
 [![Throughput Graph](https://graphs.waffle.io/sighttviewliu/myci/throughput.svg)](https://waffle.io/sighttviewliu/myci/metrics/throughput)
 # coveralls代码检视
 [![Coverage Status](https://coveralls.io/repos/github/sighttviewliu/myci/badge.svg?branch=master)](https://coveralls.io/github/sighttviewliu/myci?branch=master)
